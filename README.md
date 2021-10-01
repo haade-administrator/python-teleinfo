@@ -32,6 +32,7 @@ Le parseur supporte aussi l'itération :
 * RpiDom
 * SolarBox_USB
 * uTeleinfo USB Dongle from Charles Hallard (https://www.tindie.com/products/hallard/micro-teleinfo-v20/)
+* Cartelectronic 1 Usb from cartelectronic  (https://www.cartelectronic.fr/teleinfo-compteur-enedis/127-teleinfo-1-compteur-usb-lc.html)
 * PITinfo Raspberry PI hat from Charles Hallard (https://www.tindie.com/products/hallard/pitinfo/)
 
 ## Example
