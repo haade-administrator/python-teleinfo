@@ -58,6 +58,13 @@ class UTInfo2(HW_serial_based):
 
     def read_char(self):
         return self._serial_port.read(1)
+    
+class CARTELInfo(HW_serial_based):
+    def __init__(self, port="/dev/serial/by-id/usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0", *args, **kwargs):
+        super(CARTELInfo, self).__init__(port, *args, **kwargs)
+
+    def read_char(self):
+        return self._serial_port.read(1)
 
 class PITInfo(HW_serial_based):
     def __init__(self, port="/dev/ttyAMA0", *args, **kwargs):
